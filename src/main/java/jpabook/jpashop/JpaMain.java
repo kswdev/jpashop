@@ -15,7 +15,8 @@ public class JpaMain {
         tx.begin();
 
         try {
-            System.out.println("=========before commit=========");
+
+
 
             tx.commit();
         } catch (Exception e){
