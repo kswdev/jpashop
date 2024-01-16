@@ -1,5 +1,8 @@
 package jpabook.jpashop;
 
+import jpabook.jpashop.domain.item.Book;
+import jpabook.jpashop.domain.item.Item;
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
@@ -15,7 +18,10 @@ public class JpaMain {
         tx.begin();
 
         try {
+            Item item = new Book();
+            item.setName("book");
 
+            entityManager.persist(item);
 
 
             tx.commit();
