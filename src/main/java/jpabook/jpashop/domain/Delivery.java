@@ -1,9 +1,8 @@
 package jpabook.jpashop.domain;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.OneToOne;
+import jpabook.jpashop.domain.common.Adress;
+
+import javax.persistence.*;
 
 @Entity
 public class Delivery {
@@ -13,8 +12,7 @@ public class Delivery {
 
     @OneToOne(mappedBy = "delivery")
     private Order order;
-    private String city;
-    private String street;
-    private String zipcode;
+    @Embedded
+    private Adress adress;
     private DeliveryStatus status;
 }
