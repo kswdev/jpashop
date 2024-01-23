@@ -19,3 +19,5 @@ c
 3src/main/java/jpabook/jpashop/domain/item/Item.java,e\0\e091d829eb54479343a25918aa6431874cd68719
 d
 4src/main/java/jpabook/jpashop/domain/item/Movie.java,1\a\1add939da2938e8f1bd281bd6dba7a99718ebf0b
+c
+3src/main/java/jpabook/jpashop/domain/OrderItem.java,5\f\5ff98ff609f00aa390c3badb12b283b172996795

@@ -16,6 +16,16 @@ public class Member {
     private List<Order> orders = new ArrayList<>();
     private String name;
 
+    private int age;
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     @Embedded
     private Adress adress;
 
@@ -49,5 +59,16 @@ public class Member {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Member{" +
+                "id=" + id +
+                ", orders=" + orders +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                ", adress=" + adress +
+                '}';
     }
 }

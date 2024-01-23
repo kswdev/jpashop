@@ -19,3 +19,5 @@ d
 4src/main/java/jpabook/jpashop/domain/item/Album.java,9\3\937191e2c38b379e89cef2794643302965d1e442
 c
 3src/main/java/jpabook/jpashop/domain/item/Book.java,1\4\148826e5f3369973982efea346ca17997566de15
+c
+3src/main/java/jpabook/jpashop/domain/OrderItem.java,5\f\5ff98ff609f00aa390c3badb12b283b172996795
